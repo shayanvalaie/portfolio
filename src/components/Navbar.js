@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
 
 
-    <nav id="home" className="navbar navbar-transparent navbar-expand-lg navbar-light bg-light">
+    <nav id="home" className="navbar navbar-transparent navbar-expand-lg fixed-top navbar-light bg-light">
       <div className="container-fluid">
 
 
@@ -31,6 +31,7 @@ const Navbar = () => {
               to="about"
               spy={true}
               smooth={true}
+              offset={-50}
 
               duration={200} className="nav-link ">about</Link>
           </li>
@@ -39,6 +40,7 @@ const Navbar = () => {
               to="services"
               spy={true}
               smooth={true}
+              offset={-50}
 
               duration={200} className="nav-link "
             >services</Link>
@@ -47,9 +49,10 @@ const Navbar = () => {
           <li className="nav-item">
             <Link
               to="portfolio"
+
               spy={true}
               smooth={true}
-
+              offset={-50}
               duration={200} className="nav-link ">portfolio</Link>
           </li>
           <li className="nav-item">
@@ -57,6 +60,7 @@ const Navbar = () => {
               to="contact"
               spy={true}
               smooth={true}
+              offset={-50}
 
               duration={200} className="nav-link">contact</Link>
           </li>
