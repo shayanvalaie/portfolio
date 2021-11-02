@@ -10,13 +10,13 @@ const Services = () => {
             <h1 className="py-5 bold">My Services</h1>
 
             <div className="container">
-                <div className="row d-flex justify-content-between space-between">
+                <div className="row ">
 
 
 
 
-                    <div class="card mt-4 row card-margin  col-sm">
-                        <div class="content">
+                    <div class="card col-sm card-margin ">
+                        <div class="content ">
                             <div className="circle"><FontAwesomeIcon className="icon" icon={faDesktop} size="2x" /></div>
                             <h1 className="service-header">Web Design</h1>
 
@@ -24,7 +24,7 @@ const Services = () => {
                     </div>
 
 
-                    <div class="card mt-4 row card-margin col-sm">
+                    <div class="card card-margin col-sm">
                         <div class="content">
                             <div className="circle"><FontAwesomeIcon className="icon" icon={faFileCode} size="2x" /></div>
                             <h1 className="service-header">Web Development</h1>
@@ -35,7 +35,7 @@ const Services = () => {
 
 
 
-                    <div class="card mt-4 row  col-sm">
+                    <div class="card   col-sm">
 
                         <div class="content">
                             <div className="circle"><FontAwesomeIcon className="icon" icon={faGoogle} size="2x" /></div>
