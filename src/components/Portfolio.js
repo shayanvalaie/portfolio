@@ -11,7 +11,7 @@ const Portfolio = () => {
             <h1 className="text-center text-uppercase py-5 bold">Portfolio</h1>
 
 
-            <div className="container pb-2">
+            <div className="container">
 
 
                 <div className="row">
