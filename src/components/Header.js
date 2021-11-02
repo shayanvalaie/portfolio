@@ -18,7 +18,7 @@ const Header = () => {
                 <Link to="contact"
                     spy={true}
                     smooth={true}
-
+                    offset={-50}
                     duration={200} className=""><button type="button" class="btn mt-3 btn-outline-dark">CONTACT ME</button></Link>
             </div>
         </div>

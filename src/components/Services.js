@@ -9,7 +9,7 @@ const Services = () => {
         <div id="services" className="services">
             <h1 className="py-5 bold">My Services</h1>
 
-            <div className="">
+            <div className="container">
                 <div className="row d-flex justify-content-between space-between">
 
 
@@ -19,7 +19,7 @@ const Services = () => {
                         <div class="content">
                             <div className="circle"><FontAwesomeIcon className="icon" icon={faDesktop} size="2x" /></div>
                             <h1 className="service-header">Web Design</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, necessitatibus?</p>
+
                         </div>
                     </div>
 
@@ -28,7 +28,7 @@ const Services = () => {
                         <div class="content">
                             <div className="circle"><FontAwesomeIcon className="icon" icon={faFileCode} size="2x" /></div>
                             <h1 className="service-header">Web Development</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, necessitatibus?</p>
+
                         </div>
                     </div>
 
@@ -40,7 +40,7 @@ const Services = () => {
                         <div class="content">
                             <div className="circle"><FontAwesomeIcon className="icon" icon={faGoogle} size="2x" /></div>
                             <h1 className="service-header">Google ads and SEO</h1>
-                            <p>Your website will appear at the top of Google searches</p>
+
                         </div>
 
 

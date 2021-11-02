@@ -10,7 +10,7 @@ const AboutMe = () => {
                     <div className="col-lg-6 col-xm-12">
                         <h1 className="about-heading bold">About Me</h1>
 
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione non ipsam soluta quaerat veniam officiis hic corporis provident odit aspernatur nihil laborum, harum voluptates est numquam unde id iusto praesentium!</p>
+                        <p>Hi! My name is Shayan and I'm a Software Developer from Los Angeles, CA. I have well-rounded experience in Full-Stack Python, Java, and MERN. I have built numerous web applications that range from personal websites to advanced e-commerce web applications. </p>
 
                     </div>
                     <div className="col-lg-6 center bg-tan col-xm-12">
