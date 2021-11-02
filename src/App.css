@@ -550,5 +550,11 @@ nav ul li {
   
  }
 
+ @media(max-width: 574px) {
+
+  .card-margin{
+    margin-right: 0px !important;
+   }
+ }
 
  
