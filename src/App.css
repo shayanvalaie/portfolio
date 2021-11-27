@@ -53,7 +53,7 @@
 
 body{
   font-family: "Roboto Condensed", sans-serif !important;
-  background-color: #FAF9F6 !important;
+  background-color: var(--secondary-blue) !important;
   scroll-behavior: smooth;
 }
 /************* NAV BAR **************/
@@ -175,7 +175,7 @@ nav ul li {
  /******* ABOUT *******/
 
  .about-bg {
-   background-color: #FAF9F6;
+   background-color: var(--secondary-blue);
  }
 
  .bottom-line{
@@ -363,7 +363,7 @@ nav ul li {
  }
 
  .p-card:hover{
-  transform: translateY(20px);
+  transform: translateY(-5px);
  }
 
  .p-card:before{
@@ -475,9 +475,7 @@ nav ul li {
       background: none !important;
       resize: none;
       border: 0;
-      border-bottom: 0.125rem solid var(--secondary-blue);
-   
-     
+      border-bottom: 1px solid var(--primary-black);
       outline: 0 !important;
       box-shadow: none;
       margin-bottom: 1rem;
