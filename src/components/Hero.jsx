@@ -1,7 +1,16 @@
 import { motion } from 'framer-motion';
-
+import Typed from 'react-typed';
 import { styles } from '../styles';
 import { ComputersCanvas } from './canvas';
+import { Typography } from '@mui/material';
+
+const Intro = () => {
+  return (
+    <h1 className={`${styles.heroHeadText} text-white`}>
+      Hi, I'm <span className="text-[#915EFF]">Shayan</span>
+    </h1>
+  );
+};
 
 const Hero = () => {
   return (
@@ -14,10 +23,18 @@ const Hero = () => {
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
 
-        <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
+        <div className="col-lg-6 col-sm-12 ">
+          <Typography sx={{ fontWeight: 'bold' }} variant="h3">
+            <Typed
+              strings={["Hi, I'm Shayan."]}
+              typeSpeed={40}
+              backSpeed={60}
+              loop
+            />
+          </Typography>
+          {/* <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className="text-[#915EFF]">Shayan</span>
-          </h1>
+          </h1> */}
           {/* <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I develop 3D visuals, user <br className='sm:block hidden' />
             interfaces and web applications
